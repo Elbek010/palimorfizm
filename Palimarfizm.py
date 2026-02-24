@@ -52,23 +52,23 @@
         
         
 # 3-misol
-class meva:
-    def __init__(self,nomi,hudud):
-        self.nomi = nomi
-        self.hudud = hudud
-    def color(self):
-        return f"Meva turi va {self.hudud} qarab o'zgaradi" 
-class olma(meva):
-    def __init__(self, nomi, hudud):
-        super().__init__(nomi, hudud)
-    def color(self):
-        return f"{self.nomi} rangi sarg'ish , o'sadigan hudud {self.hudud}"  
-class banan(meva):
-    def __init__(self, nomi, hudud):
-        super().__init__(nomi, hudud)
-    def color(self):
-        return f"{self.nomi} rangi sariq , o'sadigan hudud {self.hudud}"
-olma1 = olma("Karvak olma,", "Kravak")
-print(olma1.color())
-banan1 = banan("Osiyo banan","Afrika")
-print(banan1.color())
+# class meva:
+#     def __init__(self,nomi,hudud):
+#         self.nomi = nomi
+#         self.hudud = hudud
+#     def color(self):
+#         return f"Meva turi va {self.hudud} qarab o'zgaradi" 
+# class olma(meva):
+#     def __init__(self, nomi, hudud):
+#         super().__init__(nomi, hudud)
+#     def color(self):
+#         return f"{self.nomi} rangi sarg'ish , o'sadigan hudud {self.hudud}"  
+# class banan(meva):
+#     def __init__(self, nomi, hudud):
+#         super().__init__(nomi, hudud)
+#     def color(self):
+#         return f"{self.nomi} rangi sariq , o'sadigan hudud {self.hudud}"
+# olma1 = olma("Karvak olma,", "Kravak")
+# print(olma1.color())
+# banan1 = banan("Osiyo banan","Afrika")
+# print(banan1.color())
