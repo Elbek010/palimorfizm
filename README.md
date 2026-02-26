@@ -1,2 +1,0 @@
-# palimorfizm
-palimorfizm

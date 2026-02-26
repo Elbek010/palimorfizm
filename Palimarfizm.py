@@ -75,6 +75,8 @@
 
 # 4-misol
 
-# class xodim:
+class xodim:
+    def __init__(self,ismi,):
+        
     
 
