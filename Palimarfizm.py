@@ -364,22 +364,22 @@
 # for kampaniya in kampaniyalar :
 #     kampaniya.info()
 # 21-misol
-class oquvchi :
-    def init(self , fan_nomi):
-        self.fan = fan_nomi
-    def info(self):
-        print(f"fan nomi : {self.fan}")       
-class matematika(oquvchi):
-    def init(self, fan_nomi):
-        super().init(fan_nomi)
-    def info(self):
-        print(f"Fan nomi : {self.fan}")
-class ingilistili(oquvchi):
-    def info(self):
-        print(f"Fan nomi : {self.fan}")
-fan = [oquvchi("Geografiya") , matematika("matematika") , ingilistili("Ingilis tili")]
-for oquvchi in fan :
-    oquvchi.info()
+# class oquvchi :
+#     def init(self , fan_nomi):
+#         self.fan = fan_nomi
+#     def info(self):
+#         print(f"fan nomi : {self.fan}")       
+# class matematika(oquvchi):
+#     def init(self, fan_nomi):
+#         super().init(fan_nomi)
+#     def info(self):
+#         print(f"Fan nomi : {self.fan}")
+# class ingilistili(oquvchi):
+#     def info(self):
+#         print(f"Fan nomi : {self.fan}")
+# fan = [oquvchi("Geografiya") , matematika("matematika") , ingilistili("Ingilis tili")]
+# for oquvchi in fan :
+#     oquvchi.info()
 
 
         
