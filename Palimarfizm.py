@@ -342,44 +342,29 @@
 # transportlar = [samolyot("Samolyot" , 900 , 1000000000 , "Havo transporti" , 300) , autobus("Avtobus" , 80 , 50000000 , "Yol transporti" , 50)]
 # for transport in transportlar : 
 #     transport.info()    
-# 20-misol
-# class kampaniya :
-#     def init(self , nomi , sohasi , xodimlar_soni , daromadi , ish_turi):
-#         self.nomi = nomi
-#         self.sohasi = sohasi
-#         self.xodimlar_soni = xodimlar_soni
-#         self.daromadi = daromadi
-#         self.ish_turi = ish_turi
-#     def info(self):
+# # 20-misol
+class kampaniya :
+    def init(self , nomi , sohasi , xodimlar_soni , daromadi , ish_turi):
+        self.nomi = nomi
+        self.sohasi = sohasi
+        self.xodimlar_soni = xodimlar_soni
+        self.daromadi = daromadi
+        self.ish_turi = ish_turi
+    def info(self):
 
 
-#         print(f"Kampaniya : {self.nomi}\n Sohasi : {self.sohasi}\n Xodimlar soni : {self.xodimlar_soni}\n Daromadi : {self.daromadi}\n Ish turi : {self.ish_turi}")
-# class IT_kampaniya(kampaniya):
-#     def info(self):
-#         print(f"Kampaniya : {self.nomi}\n Sohasi : {self.sohasi}\n Xodimlar soni : {self.xodimlar_soni}\n Daromadi : {self.daromadi}\n Ish turi : {self.ish_turi}")
-# class qurilish_kampaniya(kampaniya):
-#     def info(self):
-#         print(f"Kampaniya : {self.nomi}\n Sohasi : {self.sohasi}\n Xodimlar soni : {self.xodimlar_soni}\n Daromadi : {self.daromadi}\n Ish turi : {self.ish_turi}")
-# kampaniyalar = [IT_kampaniya("IT kampaniya : Google" , "IT" , 100000 , 1000000000 , "Dasturlash") , qurilish_kampaniya("Qurilish kampaniya : Arxitektura" , "Qurilish" , 50000 , 500000000 , "Qurilish")]
-# for kampaniya in kampaniyalar :
-#     kampaniya.info()
+        print(f"Kampaniya : {self.nomi}\n Sohasi : {self.sohasi}\n Xodimlar soni : {self.xodimlar_soni}\n Daromadi : {self.daromadi}\n Ish turi : {self.ish_turi}")
+class IT_kampaniya(kampaniya):
+    def info(self):
+        print(f"Kampaniya : {self.nomi}\n Sohasi : {self.sohasi}\n Xodimlar soni : {self.xodimlar_soni}\n Daromadi : {self.daromadi}\n Ish turi : {self.ish_turi}")
+class qurilish_kampaniya(kampaniya):
+    def info(self):
+        print(f"Kampaniya : {self.nomi}\n Sohasi : {self.sohasi}\n Xodimlar soni : {self.xodimlar_soni}\n Daromadi : {self.daromadi}\n Ish turi : {self.ish_turi}")
+kampaniyalar = [IT_kampaniya("IT kampaniya : Google" , "IT" , 100000 , 1000000000 , "Dasturlash") , qurilish_kampaniya("Qurilish kampaniya : Arxitektura" , "Qurilish" , 50000 , 500000000 , "Qurilish")]
+for kampaniya in kampaniyalar :
+    kampaniya.info()
 # 21-misol
-class oquvchi :
-    def init(self , fan_nomi):
-        self.fan = fan_nomi
-    def info(self):
-        print(f"fan nomi : {self.fan}")       
-class matematika(oquvchi):
-    def init(self, fan_nomi):
-        super().init(fan_nomi)
-    def info(self):
-        print(f"Fan nomi : {self.fan}")
-class ingilistili(oquvchi):
-    def info(self):
-        print(f"Fan nomi : {self.fan}")
-fan = [oquvchi("Geografiya") , matematika("matematika") , ingilistili("Ingilis tili")]
-for oquvchi in fan :
-    oquvchi.info()
+
 
 
         

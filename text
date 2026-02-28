@@ -6,13 +6,13 @@
 
 ; 3. Meva class yarating. Olma va Banan classlari rang() metodini o‘ziga mos qilib yozsin.
 
-4. Xodim class yarating. Direktor va O‘qituvchi classlari ish_haqi() metodini o‘zicha aniqlasin.
+; 4. Xodim class yarating. Direktor va O‘qituvchi classlari ish_haqi() metodini o‘zicha aniqlasin.
 
-5. Qurilma class yarating. Kompyuter va Telefon classlari ishlab_chiqaruvchi() metodini o‘ziga mos qilib yozsin.
+; 5. Qurilma class yarating. Kompyuter va Telefon classlari ishlab_chiqaruvchi() metodini o‘ziga mos qilib yozsin.
 
-6. Hayvonlar uchun class tuzing. Qush va Baliq classlari harakat() metodini turlicha bajarishi kerak.
+; 6. Hayvonlar uchun class tuzing. Qush va Baliq classlari harakat() metodini turlicha bajarishi kerak.
 
-7. Avto classidan meros olgan Malibu, Cobalt, Nexia classlarida narxi() metodini o‘ziga mos qiymatda chiqaring.
+; 7. Avto classidan meros olgan Malibu, Cobalt, Nexia classlarida narxi() metodini o‘ziga mos qiymatda chiqaring.
 
 8. Asbob class yarating. Gitara va Baraban classlari ovoz_chiqar() metodini o‘ziga mos qilib yozsin.
 
