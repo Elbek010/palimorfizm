@@ -365,20 +365,23 @@
 #     kampaniya.info()
 # 21-misol
 
-class oqituvchi:
-    def __init__(self, fan_nomi):
+# class oqituvchi:
+#     def __init__(self, fan_nomi):
 
-        self.fan_nomi = fan_nomi
+#         self.fan_nomi = fan_nomi
 
-    def fan_nomi(self):
-        return self.fan_nomi
-class matematika(oqituvchi):
-    def fan_nomi(self):
-        return f"Matematika fanining nomi: {self.fan_nomi}"
-class ingliz_tili(oqituvchi):
-    def fan_nomi(self):
-        return 
+#     def fan_nomi(self):
+#         return self.fan_nomi
+# class matematika(oqituvchi):
+#     def fan_nomi(self):
+#         return f"Matematika fani nomi: {self.fan_nomi}"
+# class ingliz_tili(oqituvchi):
+#     def fan_nomi(self):
+#         return f"Ingiliz tili fani nomi: {self.fan_nomi}"
 
+# oqituvchi1 = [matematika("matematika"),ingliz_tili("ingiliz tili")]
+# for oqituvchi in oqituvchi1:
+#     oqituvchi.fan_nomi()
 
 
 
