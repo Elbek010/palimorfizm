@@ -14,40 +14,41 @@
 
 ; 7. Avto classidan meros olgan Malibu, Cobalt, Nexia classlarida narxi() metodini o‘ziga mos qiymatda chiqaring.
 
-8. Asbob class yarating. Gitara va Baraban classlari ovoz_chiqar() metodini o‘ziga mos qilib yozsin.
+; 8. Asbob class yarating. Gitara va Baraban classlari ovoz_chiqar() metodini o‘ziga mos qilib yozsin.
 
-9. O‘yinchi class yarating. Futbolchi va Basketbolchi classlari sport_turi() metodini o‘zicha
-bajarishi kerak.
+; 9. O‘yinchi class yarating. Futbolchi va Basketbolchi classlari sport_turi() metodini o‘zicha
+; bajarishi kerak.
 
-10. Raqam class yarating. JuftSon va ToqSon classlari aniqlik() metodini o‘zicha aniqlasin.
+; 10. Raqam class yarating. JuftSon va ToqSon classlari aniqlik() metodini o‘zicha aniqlasin.
 
-11. Taom class yarating. Osh va Lag‘mon classlari ta’mi() metodini o‘ziga mos qilib yozsin.
+; 11. Taom class yarating. Osh va Lag‘mon classlari ta’mi() metodini o‘ziga mos qilib yozsin.
 
-12. Qush class yarating. Burgut va Qaldirg‘och classlari uchish_usuli() metodini o‘ziga mos
-qilib yozsin.
+; 12. Qush class yarating. Burgut va Qaldirg‘och classlari uchish_usuli() metodini o‘ziga mos
+; qilib yozsin.
 
-13. Odam class yarating. Talaba va Ishchi classlari vazifasi() metodini o‘ziga mos qilib yozsin.
-14. O‘yin class yarating. Shaxmat va Dama classlari qoidasi() metodini o‘zicha aniqlasin.
-15. Mashina class yarating. BMW va Tesla classlari yoqilg‘i_turi() metodini o‘ziga mos qilib
-yozsin.
-16. Binolar class yarating. Uy va Maktab classlari xona_soni() metodini o‘ziga mos qilib
-yozsin.
-17. Yozuvchi class yarating. Shoir va NasriyYozuvchi classlari janr() metodini o‘zicha
-aniqlasin.
-18. Hayvon class yarating. Ot va Sigir classlari ovoz() metodini o‘ziga mos qilib yozsin.
-19. Transport class yarating. Avtobus va Samolyot classlari sig‘imi() metodini o‘ziga mos
-qilib yozsin.
-20. Kompaniya class yarating. ITKompaniya va QurilishKompaniya classlari ish_turi()
-metodini o‘zicha aniqlasin.
-21. O‘qituvchi class yarating. Matematika va InglizTili classlari fan_nomi() metodini o‘zicha
-yozsin.
-22. Texnika class yarating. Printer va Skaner classlari ishlash_turi() metodini o‘ziga mos qilib
-yozsin.
-23. DasturlashTili class yarating. Python va Java classlari afzallik() metodini o‘ziga mos qilib
-yozsin.
+; 13. Odam class yarating. Talaba va Ishchi classlari vazifasi() metodini o‘ziga mos qilib yozsin.
+; 14. O‘yin class yarating. Shaxmat va Dama classlari qoidasi() metodini o‘zicha aniqlasin.
+; 15. Mashina class yarating. BMW va Tesla classlari yoqilg‘i_turi() metodini o‘ziga mos qilib
+; yozsin.
+; 16. Binolar class yarating. Uy va Maktab classlari xona_soni() metodini o‘ziga mos qilib
+; yozsin.
+; 17. Yozuvchi class yarating. Shoir va NasriyYozuvchi classlari janr() metodini o‘zicha
+; aniqlasin.
+; 18. Hayvon class yarating. Ot va Sigir classlari ovoz() metodini o‘ziga mos qilib yozsin.
+; 19. Transport class yarating. Avtobus va Samolyot classlari sig‘imi() metodini o‘ziga mos
+; qilib yozsin.
+; 20. Kompaniya class yarating. ITKompaniya va QurilishKompaniya classlari ish_turi()
+; metodini o‘zicha aniqlasin.
+; 21. O‘qituvchi class yarating. Matematika va InglizTili classlari fan_nomi() metodini o‘zichayozsin.
+
+22. Texnika class yarating. Printer va Skaner classlari ishlash_turi() metodini o‘ziga mos qilibyozsin.
+
+23. DasturlashTili class yarating. Python va Java classlari afzallik() metodini o‘ziga mos qilibyozsin.
+
 24. Odam class yarating. Bola va Katta classlari yosh_turi() metodini o‘zicha aniqlasin.
-25. O‘yinchoq class yarating. Robot va Qo‘g‘irchoq classlari materiali() metodini o‘ziga mos
-qilib yozsin.
+
+25. O‘yinchoq class yarating. Robot va Qo‘g‘irchoq classlari materiali() metodini o‘ziga mos qilib yozsin.
+
 26. Mashina class yarating. Traktor va YengilAvto classlari ishlatilish_turi() metodini o‘zicha
 yozsin.
 27. Kitob class yarating. Badiiy va Ilmiy classlari mavzu() metodini o‘ziga mos qilib yozsin.
