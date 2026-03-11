@@ -41,18 +41,18 @@
 ; metodini o‘zicha aniqlasin.
 ; 21. O‘qituvchi class yarating. Matematika va InglizTili classlari fan_nomi() metodini o‘zichayozsin.
 
-22. Texnika class yarating. Printer va Skaner classlari ishlash_turi() metodini o‘ziga mos qilibyozsin.
+; 22. Texnika class yarating. Printer va Skaner classlari ishlash_turi() metodini o‘ziga mos qilibyozsin.
 
-23. DasturlashTili class yarating. Python va Java classlari afzallik() metodini o‘ziga mos qilibyozsin.
+; 23. DasturlashTili class yarating. Python va Java classlari afzallik() metodini o‘ziga mos qilibyozsin.
 
-24. Odam class yarating. Bola va Katta classlari yosh_turi() metodini o‘zicha aniqlasin.
+; 24. Odam class yarating. Bola va Katta classlari yosh_turi() metodini o‘zicha aniqlasin.
 
-25. O‘yinchoq class yarating. Robot va Qo‘g‘irchoq classlari materiali() metodini o‘ziga mos qilib yozsin.
+; 25. O‘yinchoq class yarating. Robot va Qo‘g‘irchoq classlari materiali() metodini o‘ziga mos qilib yozsin.
 
-26. Mashina class yarating. Traktor va YengilAvto classlari ishlatilish_turi() metodini o‘zicha
-yozsin.
-27. Kitob class yarating. Badiiy va Ilmiy classlari mavzu() metodini o‘ziga mos qilib yozsin.
-28. Musiqa class yarating. Rap va Klassik classlari janr_tavsifi() metodini o‘zicha yozsin.
-29. Hayvon class yarating. Quyon va Bo‘ri classlari tezligi() metodini o‘ziga mos qilib yozsin.
-30. Avto class yarating. Mercedes, Audi, Toyota classlari ishlab_chiqaruvchi() metodini o‘ziga
-mos qilib yozsin.
+; 26. Mashina class yarating. Traktor va YengilAvto classlari ishlatilish_turi() metodini o‘zicha
+; yozsin.
+; 27. Kitob class yarating. Badiiy va Ilmiy classlari mavzu() metodini o‘ziga mos qilib yozsin.
+; 28. Musiqa class yarating. Rap va Klassik classlari janr_tavsifi() metodini o‘zicha yozsin.
+; 29. Hayvon class yarating. Quyon va Bo‘ri classlari tezligi() metodini o‘ziga mos qilib yozsin.
+; 30. Avto class yarating. Mercedes, Audi, Toyota classlari ishlab_chiqaruvchi() metodini o‘ziga
+; mos qilib yozsin.

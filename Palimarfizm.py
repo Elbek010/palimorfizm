@@ -384,10 +384,5 @@
 #     oqituvchi.fan_nomi()
 
 
-
-
-
-
-        
-    
+# 22-misol
 
