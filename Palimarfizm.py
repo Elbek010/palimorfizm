@@ -386,3 +386,169 @@
 
 # 22-misol
 
+# class texnika:
+#     def __init__(self, nomi):
+#         self.nomi = nomi
+
+#     def ishlash_turi(self):
+#         return f"{self.nomi} texnikasi umumiy ishlash turi"
+# class printer(texnika):
+#     def ishlash_turi(self):
+#         return f"{self.nomi} texnikasi ishlash turi: Chop etish"
+# class skaner(texnika):
+#     def ishlash_turi(self):
+#         return f"{self.nomi} texnikasi ishlash turi: Rasmni skanerlash"
+# texnika1 = [printer("HP Printer"), skaner("Canon Skaner")]
+# for texnika in texnika1:
+#     print(texnika.ishlash_turi())
+
+# 23-misol
+
+# class DasturlashTili:
+#     def __init__(self, nomi):
+#         self.nomi = nomi
+
+#     def afzallik(self):
+#         return f"{self.nomi} dasturlash tilining umumiy afzalligi"
+# class Python(DasturlashTili):
+#     def afzallik(self):
+#         return f"{self.nomi} dasturlash tilining afzalligi: Oson o'rganish va keng kutubxonalar"
+# class Java(DasturlashTili):
+#     def afzallik(self):
+#         return f"{self.nomi} dasturlash tilining afzalligi: Platforma mustaqilligi va kuchli tip tizimi"
+# dasturlash_tillari = [Python("Python"), Java("Java")]
+# for til in dasturlash_tillari:
+#     print(til.afzallik())
+
+# 24-misol
+
+#     def __init__(self, ism, yosh):
+#         self.ism = ism
+#         self.yosh = yosh
+
+#     def yosh_turi(self):
+#         return f"{self.ism} umumiy yosh turi: {self.yosh} yosh"
+# class Bola(Odam):
+#     def yosh_turi(self):
+#         return f"{self.ism} yosh turi: Bola, {self.yosh} yosh"
+# class Katta(Odam):
+#     def yosh_turi(self):
+#         return f"{self.ism} yosh turi: Katta, {self.yosh} yosh"
+# odamlar = [Bola("Elbek", 10), Katta("BRO", 30)]
+# for odam in odamlar:
+#     print(odam.yosh_turi())
+
+# 25-misol
+
+# class Oyinchoq:
+#     def __init__(self, nomi):
+#         self.nomi = nomi
+
+#     def materiali(self):
+#         return f"{self.nomi} o'yinchoq umumiy materiali"
+# class Robot(Oyinchoq):
+#     def materiali(self):
+#         return f"{self.nomi} o'yinchoq materiali: Plastik"
+# class Qogirchoq(Oyinchoq):
+#     def materiali(self):
+#         return f"{self.nomi} o'yinchoq materiali: Matodan"
+# oyinchoqlar = [Robot("Robot"), Qogirchoq("Qo'g'irchoq")]
+# for oyinchoq in oyinchoqlar:
+#     print(oyinchoq.materiali())
+
+# 26-misol
+
+# class Mashina:
+#     def __init__(self, nomi):
+#         self.nomi = nomi
+
+#     def ishlatilish_turi(self):
+#         return f"{self.nomi} mashinasi umumiy ishlatilish turi"
+# class Traktor(Mashina):
+#     def ishlatilish_turi(self):
+#         return f"{self.nomi} mashinasi ishlatilish turi: Qishloq xo'jaligida foydalaniladi"
+# class YengilAvto(Mashina):
+#     def ishlatilish_turi(self):
+#         return f"{self.nomi} mashinasi ishlatilish turi: Shaxsiy transport vositasi"
+# mashinalar = [Traktor("Traktor"), YengilAvto("Yengil Avto")]
+# for mashina in mashinalar:
+#     print(mashina.ishlatilish_turi())
+
+# 27-misol
+
+# class Kitob:
+#     def __init__(self, nomi):
+#         self.nomi = nomi
+
+#     def mavzu(self):
+#         return f"{self.nomi} kitob umumiy mavzusi"
+# class Badiiy(Kitob):
+#     def mavzu(self):
+#         return f"{self.nomi} kitob mavzusi: Badiiy adabiyot"
+# class Ilmiy(Kitob):
+#     def mavzu(self):
+#         return f"{self.nomi} kitob mavzusi: Ilmiy adabiyot"
+# kitoblar = [Badiiy("Badiiy Kitob"), Ilmiy("Ilmiy Kitob")]
+# for kitob in kitoblar:
+#     print(kitob.mavzu())
+
+# 28-misol
+
+# class Musiqa:
+#     def __init__(self, nomi):
+#         self.nomi = nomi
+
+#     def janr_tavsifi(self):
+#         return f"{self.nomi} musiqasi umumiy janr tavsifi"
+# class Rap(Musiqa):
+#     def janr_tavsifi(self):
+#         return f"{self.nomi} musiqasi janr tavsifi: Rap musiqasi tez va ritmik tarzda ifodalanadi"
+# class Klassik(Musiqa):
+#     def janr_tavsifi(self):
+#         return f"{self.nomi} musiqasi janr tavsifi: Klassik musiqasi murakkab va ko'p qatlamli kompozitsiyalarni o'z ichiga oladi"
+# musiqalar = [Rap("Rap"), Klassik("Klassik")]
+# for musiqa in musiqalar:
+#     print(musiqa.janr_tavsifi())
+
+# 29-misol
+
+# class Hayvon:
+#     def __init__(self, nomi):
+#         self.nomi = nomi
+
+#     def tezligi(self):
+#         return f"{self.nomi} hayvoni umumiy tezligi"
+# class Quyon(Hayvon):
+#     def tezligi(self):
+#         return f"{self.nomi} hayvoni tezligi: 40 km/soat"
+# class Bor(Hayvon):
+#     def tezligi(self):
+#         return f"{self.nomi} hayvoni tezligi: 60 km/soat"
+# hayvonlar = [Quyon("Quyon"), Bor("Bo'ri")]
+# for hayvon in hayvonlar:
+#     print(hayvon.tezligi())
+
+# 30-misol
+
+# class Avto:
+#     def __init__(self, nomi):
+#         self.nomi = nomi
+
+#     def ishlab_chiqaruvchi(self):
+#         return f"{self.nomi} avtomobili umumiy ishlab chiqaruvchisi"
+# class BMW(Avto):
+#     def ishlab_chiqaruvchi(self):
+#         return f"{self.nomi} avtomobili ishlab chiqaruvchisi: BMW"
+# class Audi(Avto):
+#     def ishlab_chiqaruvchi(self):
+#         return f"{self.nomi} avtomobili ishlab chiqaruvchisi: Audi"
+# class Toyota(Avto):
+#     def ishlab_chiqaruvchi(self):
+#         return f"{self.nomi} avtomobili ishlab chiqaruvchisi: Toyota"
+# avtomobillar = [BMW("BMW"), Audi("Audi"), Toyota("Toyota")]
+# for avto in avtomobillar:
+#     print(avto.ishlab_chiqaruvchi())
+
+
+
+                                    # THE END
